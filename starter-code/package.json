@@ -1,0 +1,22 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "Starter code for GraphQL article",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node src/seed.js"
+  },
+  "author": "Kevin Cunningham",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^3.20.2",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.12"
+  }
+}
